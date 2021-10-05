@@ -1,5 +1,5 @@
-import { react } from '@babel/types';
-import { render } from '@testing-library/react';
+//import { react } from '@babel/types';
+//import { render } from '@testing-library/react';
 import React from 'react';
 import QuoteMachine from './components/QuoteMachine';
 import {Grid, withStyles} from '@material-ui/core';
@@ -39,7 +39,7 @@ class App extends React.Component{
 
   get selectedQuote() {
     if (!this.state.quotes.length || !Number.isInteger(this.state.selectedQuoteIndex)) {
-      return;
+      return 1;
     }
     return this.state.quotes[this.state.selectedQuoteIndex];
   }
