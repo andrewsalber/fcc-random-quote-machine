@@ -2,7 +2,6 @@ import { react } from '@babel/types';
 import { render } from '@testing-library/react';
 import React from 'react';
 import QuoteMachine from './components/QuoteMachine';
-import 'typeface-roboto';
 import {Grid, withStyles} from '@material-ui/core';
 
 const styles = {
